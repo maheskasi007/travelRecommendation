@@ -154,10 +154,12 @@ aside .social-icons i {
 aside .social-icons i:hover {
   color: #25b1db;
 }
-.details h1 {
+.details h1,
+.about-us h1 {
   font-size: 4rem;
   width: 30rem;
   color: #fff;
+  text-transform: uppercase;
 }
 .details p {
   font-size: 0.7rem;
@@ -179,4 +181,142 @@ aside .social-icons i:hover {
 }
 .details button:hover {
   background-color: #147a99;
+}
+
+/* About us page */
+.aboutus-details,
+.contactus-details {
+  gap: 3rem;
+}
+.about-us-details {
+  background: linear-gradient(to right, #00000057, #00000057);
+  margin: 2rem 5rem 2rem 0rem;
+  border-radius: 10px;
+  padding: 1rem 2rem;
+}
+.about-us-details p {
+  padding-top: 1rem;
+  color: #fff;
+  font-size: 0.8rem;
+}
+.our-team {
+  margin-top: 2rem;
+  margin-right: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1.5rem;
+}
+.our-team h1 {
+  font-size: 2rem;
+  color: #fff;
+  width: 10rem;
+}
+.our-team .card {
+  width: 15rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  gap: 1rem;
+  border-radius: 10px;
+  background: linear-gradient(to right, #00000057, #00000057);
+  color: #fff;
+}
+.our-team .card .card-icon {
+  background-color: #25b1db;
+  padding: 5px 7px;
+  border-radius: 6px;
+}
+.our-team .card .card-icon i {
+  font-size: 15px;
+}
+.our-team .card .card-text h2 {
+  margin-top: 15px;
+  font-size: 1rem;
+}
+.our-team .card .card-text p {
+  font-size: 0.8rem;
+  margin-top: 10px;
+}
+.our-team .card .card-text h3 {
+  width: 100%;
+  text-align: center;
+  background-color: #147a99;
+  color: #fff;
+  border: 1.5px solid #fff;
+  border-radius: 8px;
+  margin-top: 14px;
+  padding: 6px 0;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+/* Contact us Page */
+.contact-us-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5rem;
+}
+.contact-us-details h1 {
+  font-size: 3rem;
+  color: #fff;
+  text-transform: uppercase;
+}
+.contact-us-details .contact-us-text p {
+  font-size: 0.8rem;
+  margin-top: 4rem;
+  color: #fff;
+}
+.contact-us-details .contact-us-form form {
+  background-color: #0000005d;
+  padding: 1.5rem;
+  width: 30rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  color: #fff;
+  font-size: 0.8rem;
+  border-radius: 8px;
+}
+.contact-us-details .contact-us-form form label {
+  display: block;
+  padding-top: 10px;
+  font-weight: 300;
+}
+.contact-us-details .contact-us-form form input,
+.contact-us-details .contact-us-form form textarea {
+  margin-top: 10px;
+  width: 100%;
+  padding: 5px;
+  background: transparent;
+  border: 1px solid #000;
+  outline: none;
+  color: #fff;
+  font-weight: 300;
+  border-radius: 2px;
+}
+.contact-us-details .contact-us-form form input::placeholder,
+.contact-us-details .contact-us-form form textarea::placeholder {
+  color: #ffffff6a;
+  font-size: 0.8rem;
+  font-weight: 100;
+}
+.contact-us-details .contact-us-form form textarea {
+  height: 80px;
+}
+.contact-us-details .contact-us-form form .btn {
+  margin-top: 16px;
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+  border: 1px solid #fff;
+  font-size: 0.8rem;
+  color: #fff;
+  background-color: #25b1db;
+  border-radius: 3px;
+  cursor: pointer;
 }

@@ -320,3 +320,58 @@ aside .social-icons i:hover {
   border-radius: 3px;
   cursor: pointer;
 }
+
+/* Search Result */
+.searchResult {
+  background: transparent;
+  position: absolute;
+  z-index: 999;
+  top: 4.5rem;
+  right: 5rem;
+}
+.searchResult h2 {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  padding: 0.6rem 0;
+}
+.searchResult .recommendation-card {
+  width: 400px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  padding-bottom: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.searchResult img {
+  width: 400px;
+  border-radius: 10px;
+}
+.searchResult .recommendation-card h3 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  padding: 0.5rem;
+  text-align: left;
+}
+.searchResult .recommendation-card p {
+  font-size: 0.8rem;
+  font-weight: 300;
+  padding: 0 0.5rem 0.5rem;
+}
+.searchResult .recommendation-card button {
+  font-size: 1rem;
+  padding: 8px 12px;
+  background: #147a99;
+  border: none;
+  outline: none;
+  text-align: center;
+  margin: 0 auto;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}

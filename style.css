@@ -115,14 +115,12 @@ nav .search form button {
 nav .search form button:hover {
   background: #147a99;
 }
-
 .homepage-details {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   gap: 5rem;
 }
-
 aside {
   display: flex;
   flex-direction: column;
@@ -130,7 +128,6 @@ aside {
   align-items: center;
   margin: 3rem 2rem;
 }
-
 aside .hr-line {
   width: 2px;
   height: 10rem;
@@ -150,7 +147,6 @@ aside .social-icons i {
   cursor: pointer;
   transition: all 0.3s;
 }
-
 aside .social-icons i:hover {
   color: #25b1db;
 }
@@ -182,7 +178,6 @@ aside .social-icons i:hover {
 .details button:hover {
   background-color: #147a99;
 }
-
 /* About us page */
 .aboutus-details,
 .contactus-details {
@@ -252,7 +247,6 @@ aside .social-icons i:hover {
   font-size: 0.9rem;
   font-weight: 500;
 }
-
 /* Contact us Page */
 .contact-us-details {
   display: flex;
@@ -320,7 +314,6 @@ aside .social-icons i:hover {
   border-radius: 3px;
   cursor: pointer;
 }
-
 /* Search Result */
 .searchResult {
   background: transparent;
@@ -349,6 +342,7 @@ aside .social-icons i:hover {
 }
 .searchResult img {
   width: 400px;
+  height: auto;
   border-radius: 10px;
 }
 .searchResult .recommendation-card h3 {
